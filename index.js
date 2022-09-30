@@ -2,7 +2,6 @@ const express = require('express');
 const PORT = 3000;
 const cors = require('cors');
 const check = require('./checkwebsite')
-const serverless = require("serverless-http");
 const app = express();
 const router = express.Router();
 
@@ -30,5 +29,5 @@ app.listen(PORT, () => {
 
 app.use(`/api`, router);
 
-module.exports = app;
-module.exports.handler = serverless(app);
+// module.exports = app;
+// module.exports.handler = serverless(app);
