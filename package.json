@@ -6,6 +6,7 @@
     "express": "^4.18.1",
     "netlify-lambda": "^2.0.15",
     "nodemon": "^2.0.20",
+    "npm-git-install": "^0.3.0",
     "serverless-http": "^3.0.2"
   },
   "engines": {
